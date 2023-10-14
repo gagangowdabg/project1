@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    
+    color: white;
+}
+
+.main{
+    background: url(background3.jpeg);
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.nav{
+    padding: 10px 10%;
+}
+
+nav{
+    display:flex;
+    width:84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 150px
+}
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color: wheat;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content:'';
+    width: 0%;
+    height: 3px;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+    text-align: center;
+    padding: 120px 100px;
+}
+
+.header-text h1 span{
+    color: #ff004f;
+}
+
+.header-text a{
+    color: aqua;
+}
+
+/* ---------about---------*/
+
+
+.row{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+    flex-basis: 35%;
+    padding-left: 70px;
+
+}
+
+.about-col-1 img{
+    width: 100%;
+    align-content: center;
+}
+
+.about-col-2 {
+    flex-basis: 60%;
+}
+
+.Sc{
+    text-align: center;
+    padding-top: 40px;
+    color: peru;
+}
+
+.bs{
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: justify;
+    text-justify:inter-word;
+    padding-right: 70px;
+}
+
+.bs::first-letter{
+    font-size: 200%;
+  color: peru;
+}
+
+.cs{
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: justify;
+    text-justify:inter-word;
+    padding-right: 70px;
+}
+
+.cs::first-letter{
+    font-size: 200%;
+  color: peru;
+}
+
+.ds{
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: justify;
+    text-justify:inter-word;
+    padding-right: 70px;
+}
+
+.ds::first-letter{
+    font-size: 200%;
+  color:peru;
+}
+
+.op{
+    padding: 80 px 0;
+    background: url(background6.jpg);
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.bp{
+    padding: 80 px 0;
+    background: url(background7.jpg);
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.aa{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.ab{
+    color:peru;
+}
+
+.aaa{
+    color: blue;
+}
+
+.bbb{
+    font-size: 20px;
+    color:darkgoldenrod;
+}
+
+.dp{
+    padding: 80 px 0;
+    background: url(background8.jpg);
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.pro{
+    text-align: center;
+    padding-top: 30px;
+}
+
+h1{
+    color: peru;
+}
+ 
+.project-name {
+    cursor: pointer;
+    color:aqua;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+.arrow {
+    font-size: 12px;
+    margin-left: 5px;
+    display: inline-block;
+    transform: rotate(90deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-details {
+    display: none;
+    color: maroon;
+}
+
+.project-details p{
+    color: cornsilk;
+    text-align:center;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.project-name:hover + .project-details {
+    display: block;
+}
+
+.project-name:hover .arrow {
+    transform: rotate(0deg);
+}
+
+.cp{
+    padding: 80 px 0;
+    background: url(background9.jpg);
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: 170vh;
+    position:relative;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.certificates {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.certificate {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: 450px;
+    text-align: center;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.cert{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.certificate img {
+    max-width: 100%; 
+    border: 1px solid #ddd; 
+    border-radius: 3px; 
+    margin: 1px;
+}
+
+.certificate p{
+    color: #007bff;
+    text-align: justify;
+}
+
+
+.gp{
+    padding: 80 px 0;
+    background: url(background9.jpg);
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: 120vh;
+    position:relative;
+}
+
+.social-icons {
+    margin: 20px 20px;
+    padding-right: 170px;
+}
+.social-icons a {
+    text-decoration: none;
+    margin: 10px 10px;
+    padding-top: 10px;
+}

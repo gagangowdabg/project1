@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        fieldset{
+    width: 80%;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+        form{
+            text-align: center;
+            color: white;
+        }
+        input[type="text"][type="email"], textarea{
+    width: 50%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing:content-box;
+}
+h1{
+    text-align: center;
+}
+.two{
+    padding-left: 160px;
+}
+ a{
+            border: 2px solid black;
+            text-decoration: none;
+            color: red;
+            border-radius: 5px;
+            text-align: center;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        a:hover{
+            background-color: black;
+        }
+        button{
+            border: 2px solid black;
+            text-decoration: none;
+            color: black;
+            border-radius: 5px;
+            text-align: center;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        button:hover{
+            background-color: red;
+        }
+        img{
+            size-adjust: 5px;
+        }
+        p{
+            padding-right: 180px;
+            color:red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="gp">
+    <div class="nav">
+        <nav>
+            <img src="logo2.jpeg" class="logo">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about me.html">ABOUT ME</a></li>
+            <li><a href="education.html">EDUCATION</a></li>
+            <li><a href="project.html">PROJECTS</a></li>
+            <li><a href="certificates.html">CERTIFICATES</a></li>
+        </ul>
+    </nav>
+    </div>
+   
+    <h1>CONTACT ME</h1>
+    <br><br><br>
+    <form action="https://formspree.io/f/xrgwrlad" method=post if="form">
+        <div class="two">
+    <fieldset>
+        <legend>Your Info</legend><br>
+        <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required><br><br><br>
+            <label for="email">Mail ID:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required><br><br><br>
+            
+            <textarea id="details" name="details" rows="4" placeholder="Enter your message here" required></textarea><br><br>
+            <button type="submit">submit</button>
+    </fieldset><br>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/_gagangowda_15/"><img src="instagram.png"height="20px" width="20px"></a>
+        <a href="https://github.com/gagangowdabg"><img src="github.png"height="20px" width="20px"></a>
+        <a href="https://www.linkedin.com/in/gagan-bg-0b991b216/"><img src="linkedin.png"height="20px" width="20px"></a>
+    </div><br>
+    <p>Mail me at - gaganbgowda15@gmail.com</p>
+</div>
+    </form>
+</div>
+</body>
+</html>
